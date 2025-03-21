@@ -1,0 +1,51 @@
+p, li {
+    font-size: 22px;
+}
+
+li  {
+    padding: 5px 0 5px 8px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button, input {
+    font-size: 16px;
+}
+
+.update-btn {
+    display: none;
+}
+
+.error-message, .todo-error {
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+.edit, .delete {
+    border: 0;
+    background: transparent;
+    padding: 4.5px 6.5px;
+    border-radius: 12px;
+}
+
+.edit {
+    margin-left: 24px;
+    background: dodgerblue;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.delete {
+    background: tomato;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.edit:hover, .delete:hover {
+    opacity: 1;    
+}
